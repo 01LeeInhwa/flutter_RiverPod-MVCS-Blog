@@ -18,7 +18,7 @@ class Post {
     required this.updated,
   });
 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toJson() => { // toJson이지만 실제로는 toMap
     "id": id,
     "title": title,
     "content": content,
