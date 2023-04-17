@@ -16,7 +16,7 @@ class PostDetailBody extends StatelessWidget {
           PostDetailTitle(),
           const Divider(),
           PostDetailButtons(),
-          Expanded(child: PostDetailContent()),
+          Expanded(child: PostDetailContent()), // Expanded는 body에서
         ],
       ),
     );
