@@ -6,6 +6,9 @@ import 'package:flutter_riverpod_blog_start/view/pages/post/write_page/post_writ
 import 'package:flutter_riverpod_blog_start/view/pages/user/detail_page/user_detail_page.dart';
 
 class Move {
+
+  Move._single(); // 생성자 만들어서 기본 생성자X  : Move() 자꾸 생겨서!
+
   static String postHomePage = "/post/home";
   static String postWritePage = "/post/write";
   static String joinPage = "/join";
