@@ -7,7 +7,7 @@ class PostHomePage extends StatelessWidget {
   PostHomePage({Key? key}) : super(key: key);
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final refreshKey = GlobalKey<RefreshIndicatorState>();
+  final refreshKey = GlobalKey<RefreshIndicatorState>(); // 내릴 때 새로고침
 
   @override
   Widget build(BuildContext context) {
